@@ -25,14 +25,6 @@ public class Cliente {
 		this.apellidos = apellidos;
 	}
 
-	public String getEstado() {
-		return estado;
-	}
-
-	public void setEstado(String estado) {
-		this.estado = estado;
-	}
-
 	@Override
 	public String toString() {
 		return "Cliente  con nombre=" + nombre + ", apellidos=" + apellidos;
