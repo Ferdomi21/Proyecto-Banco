@@ -3,12 +3,10 @@ package prBanco;
 public class Cliente {
 	private String nombre;
 	private String apellidos;
-	private String estado;
 	
-	public Cliente(String nombre, String apellidos, String estado) {
+	public Cliente(String nombre, String apellidos) {
 		this.nombre = nombre;
 		this.apellidos = apellidos;
-		this.estado = estado;
 	}
 
 	public String getNombre() {
@@ -33,6 +31,11 @@ public class Cliente {
 
 	public void setEstado(String estado) {
 		this.estado = estado;
+	}
+
+	@Override
+	public String toString() {
+		return "Cliente  con nombre=" + nombre + ", apellidos=" + apellidos;
 	}
 	
 	
