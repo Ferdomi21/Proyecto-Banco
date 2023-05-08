@@ -1,11 +1,11 @@
 package prBanco;
 
-public class Banco {
+public class Cuenta {
 
 	private int iban;
 	private double saldo;
 	
-	public Banco(int iban, double saldo) {
+	public Cuenta(int iban, double saldo) {
 		this.iban = iban;
 		this.saldo = saldo;
 	}
